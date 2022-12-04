@@ -1,0 +1,294 @@
+@media (max-width: 767px) {
+
+    body {
+        padding-top: 10%;
+        padding-inline: 0;
+    }
+
+
+    /* ########## HEADER ########## */
+
+
+
+    header {
+        flex-flow: column;
+
+        margin-bottom: 10%;
+    }
+
+
+
+    header nav {
+        width: 100%;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        margin-top: 7%;
+
+    }
+
+    header nav a {
+        margin: 0;
+    }
+
+
+    header nav a:hover {
+        border-top: none;
+        border-bottom: #0065FC inset 2px;
+    }
+
+
+    /* ########## MAIN ########## */
+
+
+
+    #search {
+        width: fit-content;
+
+        margin-bottom: 8%;
+    }
+
+    form {
+        height: fit-content;
+    }
+
+    #search img {
+        display: block;
+    }
+
+    #search span {
+        display: none;
+
+    }
+
+
+    main h1 {
+        padding-inline: 5%;
+        margin-bottom: 2%;
+    }
+
+    main p {
+        margin-bottom: 10%;
+        padding-inline: 5%;
+    }
+
+    .search_bar {
+        margin-bottom: 8%;
+        margin-left: 5%;
+    }
+
+    .filtre {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+
+        position: relative;
+
+        width: 100%;
+
+        margin-bottom: 8%;
+    
+    }
+
+
+    .filtre p {
+
+        position: absolute;
+
+        left: 2%;
+        top: -25%;
+
+    }
+
+    .info {
+        margin-left: 5%;
+    }
+
+    .info img {
+        object-fit: contain;
+    }
+
+    .info p {
+        margin-bottom: 8%;
+    }
+
+    .filtre button {
+        margin: 0;
+        padding: 0;
+
+        margin-top: 3%;
+
+        width: 160px;
+        height: 50px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .grande_vitrine {
+        flex-flow: column-reverse;
+        padding-inline: 0;
+    }
+
+    .vitrine1 {
+        display: flex;
+        align-content: center;
+
+        border-radius: 0;
+
+        width: 95%;
+
+        background-color: white;
+    }
+
+    .vitrine1 h1 {
+        margin-bottom: 6%;
+    }
+
+    .vitrine1 p {
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+
+    .vitrine1 article h3 {
+        padding-inline: 4%;
+    }
+
+
+    .vitrine1 article {
+
+        width: 100%;
+        height: 0%;
+
+        margin-bottom: 5%;
+
+    }
+
+    
+
+
+    .container article p {
+        margin-top: 0;
+        margin-bottom: 1%;
+        padding-inline: 5%;
+    }
+
+    .container .rank1 {
+        padding-left: 5%;
+        padding-bottom: 2%;
+    }
+
+
+
+    .img_title {
+
+        width: 97.2%;
+    }
+
+    .img_title2 {
+
+        height: 144px;
+    }
+
+
+
+    #afficher_plus {
+        display: none;
+    }
+
+
+    .vitrine2 {
+        width: 92%;
+
+        padding-inline: 4%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+
+        margin: 0;
+        margin-bottom: 5%;
+
+        border-radius: 0;
+    }
+
+    .wrapper_vitrine2 {
+        display: inline-flex;
+    }
+
+
+    .vitrine2 p {
+        padding: 0;
+
+    }
+
+    .rank11 {
+        margin-left: 2%;
+    }
+
+
+    .wrapper_vitrine3 {
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+
+    .wrapper_vitrine3 h1 {
+        margin-bottom: 5%;
+    }
+
+
+    .wrapper_vitrine3 section {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        flex-grow: 1;
+    }
+
+
+
+    .wrapper_vitrine3 section article {
+        width: 95%;
+        height: 190px;
+
+        margin-bottom: 8%;
+
+        border-radius: 20px;
+    }
+
+
+
+    .wrapper_vitrine3 section article img {
+        width: 100%;
+        height: 134px;
+    }
+
+    .wrapper_vitrine3 h3 {
+        margin-top: 3%;
+    }
+
+
+
+    /* ########## FOOTER ########## */
+
+
+
+    footer {
+
+        flex-flow: column;
+
+    }
+
+    footer section {
+        margin-top: 10%;
+    }
+
+
+
+
+}
